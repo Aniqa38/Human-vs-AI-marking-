@@ -1,0 +1,11 @@
+# ASAP 2.0 dataset (download from https://github.com/scrosseye/ASAP_2.0)
+ASAP_2_Final_github_train.csv
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

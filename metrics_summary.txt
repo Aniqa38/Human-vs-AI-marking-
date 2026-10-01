@@ -1,0 +1,30 @@
+============================================================
+DISSERTATION RESULTS SUMMARY
+Human vs AI Marking — ASAP 2.0 Dataset
+============================================================
+
+--- GPT-4o vs Human Raters ---
+  N (valid essays):           150
+  Quadratic Weighted Kappa:   0.5011
+  Pearson r:                  0.5459  (p < 0.001)
+  Mean Absolute Error:        0.64
+  Mean Bias:                  -0.1067  (Under-marking)
+  Exact match:                64 / 150  (42.7%)
+  Within 1 mark:              140 / 150  (93.3%)
+
+--- Claude vs Human Raters ---
+  N (valid essays):           149
+  Quadratic Weighted Kappa:   0.5914
+  Pearson r:                  0.6563  (p < 0.001)
+  Mean Absolute Error:        0.5638
+  Mean Bias:                  -0.255  (Under-marking)
+  Exact match:                73 / 149  (49.0%)
+  Within 1 mark:              141 / 149  (94.6%)
+
+============================================================
+QWK interpretation guide:
+  < 0.40  =  Poor agreement
+  0.40–0.59  =  Moderate agreement
+  0.60–0.79  =  Substantial agreement
+  >= 0.80  =  Almost perfect agreement
+============================================================
